@@ -14,8 +14,8 @@
     tailwind.config = {
       theme: {
         extend: {
-          colors: {
-            clifford: '#da373d',
+          colors: {'gradiant-start':'#FF8938'
+                    'gradient-end': '#F00',
           }
         }
       }
@@ -115,7 +115,7 @@
         </div>
       </section>
       <!-- super client section -->
-      <section class="my-24 rounded-xl flex flex-col lg:flex-row gap-12 bg-gradient-to-r from-[#F00] to-[#FF8938] px-16 py-24">
+      <section class="my-24 rounded-xl flex flex-col lg:flex-row gap-12 bg-gradient-to-r from-[#FF8938] to-[#F00] px-16 py-24">
         <div class="flex lg:pr-32 items-center">
           <div class="space-y-5 ">
             <h2 class="text-5xl font-extrabold text-white">Meet Our Super <br> Clients</h2>
@@ -230,8 +230,8 @@
               <span class="label-text">Enter your email address</span>
             </label> 
             <div class="join">
-              <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
-              <button class="btn btn-primary join-item">Subscribe</button>
+              <input type="text" placeholder="Email address" class="py-4 bg-transparent border-b-2 border-black outline-none" /> 
+              <button class="btn btn-primary rounded-full"><i class="fa-solid fa-chevron-right"></i></button>
             </div>
           </fieldset>
         </form>
